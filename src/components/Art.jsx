@@ -28,7 +28,7 @@ const Art = () => {
   return (
     <div id='art'>
       <div className='container mx-auto h-full pt-20'>
-        <h2 className='will-fade'>The Art</h2>
+        <h2 className='will-fade'>Lift Off</h2>
         <div className='content'>
           <ul className='spave-y-4 will-fade'>
             {goodLists.map((feature , index)=>(
@@ -55,10 +55,10 @@ const Art = () => {
           </ul>
         </div>
         <div className={'masked-container'}>
-          <h2 className='will-fade'>Sip-Worthy Perfection</h2>
+          <h2 className='will-fade'>Upward Bound</h2>
           <div id = 'masked-content'>
-            <h3>Made with craft, Poured with passion</h3>
-            <p>Not a drink, a perfect blend</p>
+            <h3>Growth Has a New Direction</h3>
+            <p>Ideas taking flights</p>
 
           </div>
 

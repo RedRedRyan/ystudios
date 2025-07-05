@@ -87,14 +87,14 @@ const navLinks = [
    ];
    
    const featureLists = [
-    "Perfectly balanced blends",
-    "Garnished to perfection",
-    "Ice-cold every time",
-    "Expertly shaken & stirred",
+    "Full-Stack innovation",
+    "Smart Contract development",
+    "De-Fi integration",
+    "Future-proof tech",
    ];
    
    const goodLists = [
-    "Handpicked ingredients",
+    "3D motion graphics",
     "Signature techniques",
     "Bartending artistry in action",
     "Freshly muddled flavors",

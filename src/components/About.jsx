@@ -35,23 +35,23 @@ const About = () => {
         <div className='mb-16 md:px-0 px-5'>
             <div className='content'>
                 <div className='md:col-span-8'>
-                    <p className ='badge'>Best cocktails</p>
+                    <p className ='badge'>Y axis</p>
                     <h2>
-                        Where every detail matters <span className='text-white'></span>
-                        from muddle to garnish
+                        The higher you climb <span className='text-white'></span>
+                        The better the view
                     </h2>
                 </div>
                 
                 <div className='sub-content'>
                     <p>
-                        At Maji, we believe that every cocktail tells a story. Our expert mixologists meticulously craft each drink. Join us in celebrating the art of cocktail making, where passion meets precision.
+                        At YStudios, we don’t just build digital solutions—we engineer upward momentum. From code to creativity.
                     </p> 
                     <div>
                     <p className='md:text-3xl text-xl font-bold'>
                         <span>4.5</span>/5
                     </p>
                     <p className='text-sm text-white-100'>
-                        More than +12000 customers
+                        More than +23 customers
                     </p> 
                 </div> 
                 </div>
