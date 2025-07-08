@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import { cocktailLists, mockTailLists,servicesData,projectsData } from '../../constants'
+import {servicesData } from '../../constants'
 import {useGSAP} from "@gsap/react";
 import  gsap  from 'gsap';
 import {ScrollTrigger} from "gsap/ScrollTrigger";
@@ -90,17 +90,7 @@ useGSAP(()=>{
                 </div>
 
 
-                <div className='sbottom-grid'>
-                    <div className='md:col-span-8'>
-                        <div className='clear'/>
-                        <img src = '/images/abt3.png' alt='grid-img-3'/>
-                    </div>
 
-                    <div className='md:col-span-4'>
-                        <div className='clear'/>
-                        <img src = '/images/abt4.png' alt='grid-img-4'/>
-                    </div>
-                </div>
             </div>
 
 

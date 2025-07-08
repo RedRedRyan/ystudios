@@ -56,7 +56,7 @@ body {
 }
 
 @utility masked-img {
-    mask-image: url("/images/ymask.png");
+    mask-image: url("/images/rmask.png");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 50%;
@@ -305,7 +305,7 @@ body {
         @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
 
         #m-left-leaf {
-            @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
+            @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3 scale-25;
         }
 
         #m-right-leaf {

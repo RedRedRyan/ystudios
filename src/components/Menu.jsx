@@ -36,25 +36,12 @@ const Menu = () => {
   const  nextCocktail = getCocktailAt(1);
   return (
     <section id = 'menu' aria-labelledby='menu-heading'>
-      <img src='/images/slider-left-leaf.png' alt='left-leaf' id='m-left-leaf' />
+      <img src='/images/cube1.png' alt='left-leaf' id='m-left-leaf' />
       <img src='/images/slider-right-leaf.png' alt='right-leaf' id='m-right-leaf' />
       <h2 id='menu-heading' className='sr-only'>
-        Cocktail Menu
+        Team
       </h2>
-      <nav className='cocktail-tabs' aria-label='Cocktail Navigation'>
-        {sliderLists.map((cocktail, index) => {
-          const isActive = index === currentIndex;
 
-          return(
-              <button key={cocktail.id} className= {`
-                  ${isActive ?'text-white border-white' 
-                  : 'text-white/50 border-white/50'}
-                  `} onClick={() => goToSlide(index)}>
-                {cocktail.name}
-              </button>
-          )
-        })}
-      </nav>
       <div className='content'>
         <div className='arrows'>
           <button className='text-left' onClick={()=>goToSlide(currentIndex-1)}>
@@ -73,13 +60,13 @@ const Menu = () => {
           <div className='recipe'>
               <div ref={contentRef} className='info'>
                   <p>
-                      Recipe for:
+                      This is
                   </p>
                   <p id ='title'>{currentCocktail.name}</p>
               </div>
               <div className='details'>
                   <h2>{currentCocktail.title}</h2>
-                  <p>{currentCocktail.description}</p>
+                  {/* <p>{currentCocktail.description}</p>*/}
               </div>
           </div>
       </div>

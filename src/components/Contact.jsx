@@ -37,8 +37,8 @@ const Contact = () => {
 
     return (
         <footer id='contact'>
-            <img src = '/images/footer-right-leaf.png' alt={'leaf-right'} id={'f-right-leaf'}/>
-            <img src = '/images/footer-left-leaf.png' alt={'leaf-left'} id={'f-left-leaf'}/>
+            <img src = '/images/paint.png' alt={'leaf-right'} id={'f-right-leaf'}/>
+            <img src = '/images/bl-leaf.png' alt={'leaf-left'} id={'f-left-leaf'}/>
             <div className='content' >
                 <h2>Where To Find Us</h2>
                 <div>
