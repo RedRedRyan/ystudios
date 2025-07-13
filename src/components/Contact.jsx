@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
                 <div>
                     <h3>Call Us</h3>
-                    <p>+254795706200</p>
+                    <p>+254795706200 , +254715402567</p>
                     <p>ytekstudios@gmail.com</p>
                 </div>
                 <div>
